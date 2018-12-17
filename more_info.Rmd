@@ -21,10 +21,6 @@ library(leaflet)
 library(sf)
 library(gridExtra)
 library(grid)
-# install.packages("extrafont")
-# library(extrafont)
-# font_import()
-
 
 # Loads ftprint data
 ftprint <- read_csv("NFA 2018.csv")
@@ -533,7 +529,7 @@ Our economy has transitioned from a manufacturing economy to a service economy. 
 
 # About the Data
 
-This data was originally collected by the Global Footprint Network ^[https://www.footprintnetwork.org/], an international nonprofit organization working to aid in global decision making around climate change through education. 
+This data was originally collected by the Global Footprint Network^[Lin, David. “Global Footprint Network.” Global Footprint Network, 2018, www.footprintnetwork.org/.], an international nonprofit organization working to aid in global decision making around climate change through education. 
 
 
 

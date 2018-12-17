@@ -13,13 +13,11 @@ output:
     code_folding: hide
 ---
 
-```{r,  out.width="100%"}
+```{r, out.width="100%"}
 # Image
 library(knitr)
 
 include_graphics("carbonemissions.jpg")
-
-
 ```
 
 Webster, Tony. J.D. Irving Smoke Stacks. 2015. Flickr
@@ -30,7 +28,6 @@ library(tidyverse)
 library(maps)
 library(leaflet)
 library(sf)
-
 
 # Loads ftprint data
 ftprint <- read_csv("NFA 2018.csv")
